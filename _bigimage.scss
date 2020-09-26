@@ -1,0 +1,26 @@
+.introduccion{
+    display: flex;
+    width: 100%;
+    position: relative;
+
+   
+
+}
+.introduccion img{
+
+    width: 100%;
+}
+
+.introduccion div{
+    width: 35%;
+  background-color:#ff4d00c2;
+    position: absolute;
+    right: 0%;
+    top: 30%;
+}
+.introduccion div p{
+    font-family: 'Roboto', sans-serif;
+   margin-right: 10%;
+   margin-left: 10%;
+   color: white;
+   font-size: 20px;}

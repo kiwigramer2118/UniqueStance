@@ -1,0 +1,108 @@
+header{
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(37, 37, 37);
+  align-items: center;
+  justify-items: center;
+
+  }
+
+  .nav{
+      display: flex;
+      flex-direction: row;
+    
+      width: 70%;
+     margin-left: 10%;
+      justify-content: center;
+  }
+ .nav h1{
+    
+margin-right: 10%;
+
+     color: white;
+     font-size: 20px;
+
+
+ }
+  .logo{
+margin-left: 5%;
+      height: 70%;
+  }
+
+  .introduccion{
+      display: flex;
+      width: 100%;
+      position: relative;
+
+     
+
+  }
+  .introduccion img{
+
+      width: 100%;
+  }
+
+  .introduccion div{
+      width: 35%;
+    background-color:#ff4d00c2;
+      position: absolute;
+      right: 0%;
+      top: 30%;
+  }
+  .introduccion div p{
+     margin-right: 10%;
+     margin-left: 10%;
+     color: white;
+     font-size: 20px;
+
+  }
+
+  .half-image{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+
+  }
+  .half-image--content{
+    display: flex;
+    flex-direction: column;
+      background-color: tomato;
+   width: 50%;
+align-content: center;
+align-items: center;
+
+  
+  }
+
+  .half-image--content p{
+
+    font-size: 20px;
+    
+  }
+  .reticule{
+     background-color: purple;
+  display: flex;
+  flex-direction: row;
+
+flex-wrap: wrap;
+  width: 80%;
+ 
+   
+  }
+
+.reticule__item{
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.reticule__item img{
+ width: 100%;
+ height: auto;
+}
+
+  .half-image img{
+      width: 50%;
+
+  }

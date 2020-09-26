@@ -1,0 +1,38 @@
+.galery{
+  display: flex;
+    margin: 0 auto;
+   
+    width: 100%;
+
+    position: relative;
+}
+.galery img {
+    width: 100%;
+}
+.selector__right{
+    position: absolute;
+   
+    width: 5%;
+    right: 1%;
+    top: 50%;
+}
+.status{
+   
+
+   position: absolute;
+   display: flex;
+    width: 5%;
+    height: 5%;
+    bottom: 10px;
+    left: 45%;
+}
+
+.status img{
+   padding: 5px;
+    height: auto;
+    width: 33%;
+}
+
+
+
+
