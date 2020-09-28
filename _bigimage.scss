@@ -25,4 +25,8 @@
    margin-right: 10%;
    margin-left: 10%;
    color: white;
-   font-size: 15px;}
+   font-size: 15px;
+   @media (max-width: 782px) {
+    font-size: 10px;
+
+}}

@@ -14,6 +14,13 @@ header {
       -ms-flex-align: center;
           align-items: center;
   justify-items: center;
+  font-size: 20px;
+}
+
+@media (max-width: 500px) {
+  header {
+    height: 40px;
+  }
 }
 
 .nav {
@@ -35,7 +42,13 @@ header {
   font-family: 'Concert One', cursive;
   margin-right: 10%;
   color: white;
-  font-size: 100%;
+  font-size: 20px;
+}
+
+@media (max-width: 700px) {
+  .nav h1 {
+    font-size: 10px;
+  }
 }
 
 .logo {
@@ -71,6 +84,12 @@ header {
   font-size: 15px;
 }
 
+@media (max-width: 782px) {
+  .introduccion div p {
+    font-size: 10px;
+  }
+}
+
 .half-image {
   width: 100%;
   display: -webkit-box;
@@ -102,6 +121,12 @@ header {
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   width: 60%;
+}
+
+@media (max-width: 700px) {
+  .half-image--content p {
+    font-size: 15px;
+  }
 }
 
 .half-image--content p strong {
@@ -138,10 +163,22 @@ header {
   margin-top: 50px;
 }
 
+@media (max-width: 500px) {
+  .field {
+    margin-top: 20px;
+  }
+}
+
 .field h2 {
   font-family: 'Roboto', sans-serif;
   color: darkgreen;
   font-size: 15px;
+}
+
+@media (max-width: 500px) {
+  .field h2 {
+    font-size: 8px;
+  }
 }
 
 .field button {
@@ -149,6 +186,12 @@ header {
   background: darkgreen;
   width: 100%;
   height: 20%;
+}
+
+@media (max-width: 1000px) {
+  .field button {
+    margin-bottom: 10px;
+  }
 }
 
 .galery {
@@ -186,5 +229,45 @@ header {
   padding: 5px;
   height: auto;
   width: 33%;
+}
+
+footer {
+  background-color: #252525;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info {
+  padding: 20px;
+  width: 30%;
+}
+
+footer h3 {
+  color: #ff4d00c2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20;
+}
+
+@media (max-width: 600px) {
+  footer h3 {
+    font-size: 10px;
+  }
+}
+
+footer p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  footer p {
+    font-size: 5px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

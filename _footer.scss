@@ -1,0 +1,33 @@
+footer{
+    background-color:rgb(37, 37, 37);
+
+    width: 100%;
+    display: flex;
+justify-content: center;
+
+  
+}
+
+.info{
+
+    padding: 20px;
+    width: 30%;
+}
+
+footer h3 {
+     color: #ff4d00c2;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20;
+     @media (max-width: 600px) {
+        font-size: 10px;
+    }
+}
+
+footer p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    @media (max-width: 600px) {
+        font-size: 5px;
+    }
+}
