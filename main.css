@@ -231,6 +231,13 @@ header {
   width: 33%;
 }
 
+.image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
 footer {
   background-color: #252525;
   width: 100%;
